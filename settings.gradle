@@ -1,0 +1,2 @@
+include ':presentation', ':domain', ':infrastructure', ':data', ':application'
+rootProject.name='The Movie'
