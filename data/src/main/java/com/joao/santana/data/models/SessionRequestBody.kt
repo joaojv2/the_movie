@@ -1,5 +1,5 @@
 package com.joao.santana.data.models
 
-internal data class CreateSessionRequestBody(
+internal data class SessionRequestBody(
     val requestToken: String
 )

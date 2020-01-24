@@ -1,4 +1,5 @@
 package com.joao.santana.domain.entities
 
-class Token {
-}
+data class Token(
+    val success: Boolean
+)

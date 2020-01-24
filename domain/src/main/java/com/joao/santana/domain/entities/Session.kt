@@ -1,4 +1,6 @@
 package com.joao.santana.domain.entities
 
-class Session {
-}
+data class Session(
+    val success: Boolean,
+    val sessionId: String
+)

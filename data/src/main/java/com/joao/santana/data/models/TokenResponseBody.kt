@@ -1,4 +1,5 @@
 package com.joao.santana.data.models
 
-class TokenResponseBody {
-}
+internal data class TokenResponseBody(
+    val success: Boolean
+)

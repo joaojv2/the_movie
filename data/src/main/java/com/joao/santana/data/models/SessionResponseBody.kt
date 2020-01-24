@@ -1,6 +1,6 @@
 package com.joao.santana.data.models
 
-data class CreateSessionResponseBody(
+internal data class SessionResponseBody(
     val success: Boolean,
     val sessionId: String
 )

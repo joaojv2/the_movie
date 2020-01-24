@@ -1,4 +1,6 @@
 package com.joao.santana.infrastructure.bases
 
-class BaseMapper {
+abstract class BaseMapper<Input, Output> {
+
+    abstract fun map(input: Input): Output
 }
